@@ -1,0 +1,147 @@
+= The Unofficial GTS TGD Errata and Clarification file
+:toc: left
+[#top]
+
+The notes below are based on the follwoing reference documents
+GTS Series Rules version 2.0B
+TGD Exclusive Rules version
+TGD Scenario Book version
+
+,,,,,
+== Rules
+=== Heavy Barrage
+[blue]_Does the Night modifier on Fire Rating affect the ability for an indirect fire attack to generate Heavy Barrage?_ +
+Barrage status is determined by the fire rating plus modifiers due to markers, and company bonus (if attained). Weather/time (night) has no impact.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/5217[CSW 5090],  Nick Richardson]
+
+=== Assault
+==== Bravery Check calculation
+[blue]_What terrain modifier should be used to determine the Bravery of the assaulting unit?_ +
+For the Bravery Check you take the (modified) defense strength of *either* an unsuppressed unit in the defending hex *or* a unit in another hex that exerts a FZ on the Assaulting units,
+whichever is best. The terrain used as modifier for the bravery check is the terrain of the defending unit used to determine the bravery check.
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/5328[CSW 5198], Nick Richardson ] +
+The steps to follow are:
+
+. Identify all eligible defender units (those in the assaulted hex plus all those that have a FZ on the assaulting unit's hex.
+. For each calculate the (modified) defense strength (this includes terrain modifier,  IP, ENT, Column, bocage, para/glider delay)
+. Add the lowest resulting (modified) defense strength to the Bravery value of the assaulting units
+
+[blue]_Do suppressed units in the defending hex or adjacent to the assaulting unit participate in any way in the Bravery determination?_ +
+No. Only units that exert a Fire Zone into the Assaulting unit hex are taken into consideration to determine the Bravery.
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/5322[CSW 5192], Nick Richardson, Here Nick gets it wrong and corrects himself later.] +
+
+==== Assault combat rating calculation
+Attacker TEM do not apply to Assault. Even positive ones (marsh, elevated road).
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2232[CSW 2173], Adam Starkweather]
+FZ to FZ modifier does not apply to the Assult fire, only to the Opportunity fire of the assault.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/1985[CSW 1931], Adam Starkweather]
+A colored AR number (not white nor black) replaces the FR for the Direct Fire Defensive Fire. THis rule is only for the Defensive Fire.
+The Attacker alawys fires once with its FR and once with its AR.
+footnote:[https://www.multimanpublishing.com/LinkClick.aspx?fileticket=ZGUKryxuq5U%3d&tabid=81[GTS Series rules 2.0b], 18.7.5D and 18.7.5E]
+
+
+=== Organic Transport
+Examples of movements that cause loss of Organic Transport:
+
+. Crossing a stream hexside (except when in column mode and there is a Road crossing that hexside). Note that Road Blocks on either side of the stream hexside cancels the effect of the Road.
+. Entering a wood hex through an hexside that does not contain a Road. Note that Road Blocks on either side (?? or only on the entered hex??) of the hexside cancels the effect of the Road).
+  Note that as the rule stands, moving from a wood hex to a clear hex though a hexside that does not contain a Road does not cause Abandoned Transport.
+  Note that the capitalized word Road stands for all types of road, railroad, causeway, sunken road, elevated road.
+
+=== Divisional Trucks / Jeeps
+Can divisional truck that was dismounted from a unit in a chit activation be reused in the same chit activation phase by another active unit?
+
+=== Phone Lines
+[blue]_Rule 16.1 German phone lines says that the phone lines are cut when any naval unit rolls a 0 when bombarding any hex on the overlay. does this include the LCRs and LCSs?_ +
+Yes
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/1369[CSW 1341], Adam Starkweather]
+
+=== Allied Air Power
+A German artillery unit placed into an artillery park retains its Air Defense ability.
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/1369[CSW 1340], Adam Starkweather]
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/5395[CSW 5263], Nick Richardson, Here Nick gets it wrong and corrects himself later.] +
+
+=== Naval procedure
+==== Landing Crafts
+Leaders that are in Landing Crafts do not provide command to any units.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/1369[CSW 1341], Adam Starkweather] +
+Landing Craft are subject divisional TQ modifier.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2081[CSW 2026], Adam Starkweather] +
+
+==== Beaches / Gaps
+Gaps are the only way out of beaches.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/1752[CSW 1703], Adam Starkweather] +
+Beach sector restrictions only apply before troops have landed and for Gaps.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2050[CSW 1995], Adam Starkweather]
+
+=== Bocage
+[blue]_Can a Nachhut with no movement allowance enter bocage?_ +
+Yes, rule does not restrict any German units from entering bocage, as long as they can perform an Engineer Action.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2633[CSW 2566], Adam Starkweather]
+
+=== Opportunity Fire
+[blue]_When a stack moves, is opportunity fire triggered against each unit or only once against the whole stack._ +
+Only one unit.
+footnote:[https://www.multimanpublishing.com/LinkClick.aspx?fileticket=ZGUKryxuq5U%3d&tabid=81[GTS Series rules 2.0b], 14.7 Paragraph 2 "If a moving stack triggers Opportunity Fire (see Rule 17.0), any Unit firing gets to target only one of the stacked Units, but the Non-Active Player does get to choose which one."]
+
+=== Engineering
+[blue]_Does a unit lose its men at work when suffering a Suppression result._ +
+No... but in fact yes. It will lose it anyways when the unit rallies as the rule says that a unit loses its Men At Work marker when any other action is performed. As rallying is the only thing that the suppressed unit can do, you might as well remove the Men At Work marker when the Suppression occurs, after deciding not to convert the suppression to Cohesion Hit.
+
+=== Random Events
+==== Historical events vs Random Event 0 "Historical Event"
+The grey events in the Master Reinforcement Guides are intended for the Advanced Scenarios only. When playing the Campaign game, these events occur when Random Event 0 as per rule 6.0.
+The scenario book mentions this in the Events section at page 65. +
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/4118[CSW 4011], Adam Starkweather]
+
+==== "Lost" Random Event
+[blue]_Can a player select units in an artillery park for the Lost Event?)_ +
+Yes, but the restriction of the Lost event (move to a hex a Unit could move to) would be in effect. Only SP guns can move out of an Artillery Park, unless they are the last unit in the park.
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/5389[CSW 5257], Nick Richardson]
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/3265[CSW 3180], Adam Starkweather]
+
+
+=== Miscellaneous
+
+==== Wittman
+. Wittman can be placed only when one of the s.SS-Pz.101 units has become active. This can occur when the approprieate Divisional Activation chit is pulled or during a Formation Activation if the unit is activated by the Leader. The placement of Wittman gives 4 FREE actions that replace (are not in addition to) the standard activation.
+footnote:[https://www.multimanpublishing.com/LinkClick.aspx?fileticket=ZGUKryxuq5U%3d&tabid=81[GTS Series rules 2.0b], This is mentionned in the side note about Wittmann in page 42 near 16.2] +
+. Wittman transfers to another unit like a leader does if unit he is on is eliminated.
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/1509[CSW 1478], Adam Starkweather]
+
+==== Other misc.
+AVRE counters like "82/6 AR, RE" have a 'colored' assault rating, it is colored in grey, and rule says 'colored' here means not white nor black.*
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2262[CSW 2221], Adam Starkweather]
+
+
+== Scenarios
+=== "The Black Baron" Learning Scenarios
+=== "Day of the Tiger" Introductory Scenario #5
+Note that in this scenario the German Direct Command chit is mostly useless as the german setup consists of 4 black striped units that cannot
+be activated when a DC chit has been drawn. +
+The 6./II./Pz. 130 unit arriving at 11h is part of the Pz Lehr division.
+The scenario rules do not mention anything about this unit. One should assume that it should be considered as part of 12SS for this scenario.
+Otherwise, this unit cannot move and must remain in its entry hex.
+
+=== "On to Bayeux" Introductory Scenario #6
+If all entry hexes from a reinforcement hex are in enemy fire zones, you may enter your reinforcements at any
+other reinforcement hex (owner’s choice)
+footnote:errata[ http://talk.consimworld.com/WebX?233@@.1dda6eb2!enclosure=.1ddbabd3[11:3:15 TGD errata.pdf]] +
+[The section "8 Armoured Brigade (attached to 50th Infantry Division):" should in fact be "Notts Yeo battalion, 231 Brigade, 50th Infantry Division"
+to make it clear that the 8th Armoured Brigade is not a separate formation in this scenario. THis is confirmed in the section Commonwealth Brigade Composition.
+For this reason the leader of the 8th Armoured Brigade is not present in this scenario.
+footnote:errata[]
+
+=== Advanced Scenarios
+[blue]_Advanced Scenarios do not provide instructions for Air Power beyond 6 June_ +
+Yes they do in the "Master Event Guide", page 65 to 67 of the Scenario Book
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/6243[CSW 6090], Lance Jones / Claudio Ciardelli  ] +
+[blue]_Advanced Scenarios do not provide instructions about how to handle Krug across the 3 areas_
+footnote:[http://talk.consimworld.com/WebX?14@@.1dda6eb2/6155[CSW 6003] Florian RIchter  http://talk.consimworld.com/WebX?7@@.1dda6eb2/6200[CSW 6044], Richard Hartland ]
+
+=== Master Reinforcements Guides
+Ignore the entry "Night, June 6, 1944 - J. Add 10 Nachhut and 6 Sperre markers to the
+12.SS-Panzer-Division Display." These are already added on the reinforcement schedule on 0700, June 6, 1944.
+footnote:errata[]
+footnote:[ http://talk.consimworld.com/WebX?14@@.1dda6eb2/2957[CSW 2880], Adam Starkweather]
+
